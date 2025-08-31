@@ -2,10 +2,10 @@
 
 export default function HeroNewsletterForm() {
     return (
-      <div className="bg-white dark:bg-gray-900">
+      <div className="bg-blue-400 dark:bg-blue-500 border-2 border-gray-600">
         <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 lg:grid-cols-12 lg:gap-8 lg:px-8">
-          <h3 className="max-w-xl text-lg font-medium tracking-tight text-balance text-gray-600 sm:text-xl lg:col-span-7 dark:text-gray-400">
-          Quick, no-fluff updates on Harnett and Johnston county business and economic news that effects you. Delivered 5x a week in under 5 minutes.
+          <h3 className="max-w-xl text-lg font-medium tracking-tight text-balance text-black sm:text-xl lg:col-span-7 lg:ml-0">
+          Quick, no-fluff updates on Harnett and Johnston county business and economic news. Delivered 5x a week in under 5 minutes.
           </h3>
           <form className="w-full max-w-md lg:col-span-5 lg:pt-2">
             <div className="flex gap-x-4">
@@ -23,21 +23,11 @@ export default function HeroNewsletterForm() {
               />
               <button
                 type="submit"
-                className="flex-none rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 dark:bg-indigo-500 dark:hover:bg-indigo-400 dark:focus-visible:outline-indigo-500"
+                className="flex-none rounded-md bg-white border border-blue-600 px-3.5 py-2.5 text-sm font-semibold text-blue-600 shadow-xs hover:bg-blue-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600"
               >
                 Keep Me in the Loop!
               </button>
             </div>
-            <p className="mt-4 text-sm/6 text-gray-900 dark:text-gray-300">
-              We care about your data. Read our{' '}
-              <a
-                href="#"
-                className="font-semibold whitespace-nowrap text-indigo-600 hover:text-indigo-500 dark:text-indigo-400 dark:hover:text-indigo-300"
-              >
-                privacy policy
-              </a>
-              .
-            </p>
           </form>
         </div>
       </div>
